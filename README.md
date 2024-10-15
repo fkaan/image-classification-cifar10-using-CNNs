@@ -83,6 +83,5 @@ To modify these parameters, edit the corresponding values in the Jupyter noteboo
 
 After training the model, you can evaluate its performance on the test dataset. The notebook provides a section to calculate and display the model's accuracy on unseen data. You can also view a confusion matrix to better understand the model's performance across different classes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
