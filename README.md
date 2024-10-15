@@ -52,3 +52,37 @@ To get started with this project, clone the repository and install the necessary
 git clone https://github.com/yourusername/cifar-10-using-cnns.git
 cd cifar-10-using-cnns
 pip install -r requirements.txt
+```
+
+## Dependencies
+
+The project requires the following dependencies:
+
+- **TensorFlow/Keras**: Used for building and training the CNN.
+- **NumPy**: For numerical operations and array handling.
+- **Matplotlib**: For plotting and visualizing the model's predictions.
+
+Make sure to install these libraries by running:
+
+```bash
+pip install -r requirements.txt
+```
+## Usage (Continued)
+
+### Training Parameters
+
+You can customize several training parameters to optimize the model performance:
+
+- **Batch Size**: Set the number of samples processed before the model is updated. Common values are 32, 64, or 128.
+- **Epochs**: Define how many times the learning algorithm will work through the entire training dataset. Increasing the number of epochs can improve accuracy but may also lead to overfitting.
+- **Learning Rate**: Adjust the rate at which the model learns. You can use learning rate schedulers to adapt the learning rate during training.
+
+To modify these parameters, edit the corresponding values in the Jupyter notebook or in the `train_cifar10.py` script.
+
+### Evaluating the Model
+
+After training the model, you can evaluate its performance on the test dataset. The notebook provides a section to calculate and display the model's accuracy on unseen data. You can also view a confusion matrix to better understand the model's performance across different classes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
