@@ -49,7 +49,7 @@ The Convolutional Neural Network (CNN) used in this project follows a typical ar
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/cifar-10-using-cnns.git
+git clone https://github.com/fkaan/cifar-10-using-cnns.git
 cd cifar-10-using-cnns
 pip install -r requirements.txt
 ```
